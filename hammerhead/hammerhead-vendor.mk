@@ -210,7 +210,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerhead/proprietary/vendor/lib/libthermalclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalclient.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libthermalioctl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalioctl.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtime_genoff.so \
-    vendor/lge/hammerhead/proprietary/vendor/lib/libuiblur.so:$(TARGET_COPY_OUT_VENDOR)/lib/libuiblur.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libvdmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvdmengine.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libvdmfumo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvdmfumo.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libvss_common_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvss_common_core.so \
