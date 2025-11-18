@@ -224,6 +224,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerhead/proprietary/vendor/lib/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcvirt.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/hw/nfc_nci.bcm2079x.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/nfc_nci.bcm2079x.default.so
 
+# i18n prebuilts for RIL
+PRODUCT_COPY_FILES += \
+    vendor/lge/hammerhead/prebuilts/vendor/lib/libandroidicu.so:$(TARGET_COPY_OUT_VENDOR)/lib/libandroidicu.so \
+    vendor/lge/hammerhead/prebuilts/vendor/lib/libicui18n.so:$(TARGET_COPY_OUT_VENDOR)/lib/libicui18n.so \
+    vendor/lge/hammerhead/prebuilts/vendor/lib/libicuuc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libicuuc.so
+
 PRODUCT_PACKAGES += \
     UpdateSetting \
     qcrilmsgtunnel \
